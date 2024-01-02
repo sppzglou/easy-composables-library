@@ -62,7 +62,7 @@ afterEvaluate {
                 from(components["release"])
 
                 groupId = "com.github.sppzglou"
-                artifactId = "easy-composables"
+                artifactId = "easy-composables-library"
                 version = "2.0.0"
             }
         }
