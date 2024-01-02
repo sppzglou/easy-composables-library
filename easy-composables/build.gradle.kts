@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = "com.github.sppzglou"
                 artifactId = "easy-composables"
-                version = "1.0.0"
+                version = "2.0.0"
             }
         }
     }
