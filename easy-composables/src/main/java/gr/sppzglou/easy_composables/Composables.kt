@@ -1,4 +1,4 @@
-package gr.sppzglou.easycomposables
+package gr.sppzglou.easy_composables
 
 import android.annotation.SuppressLint
 import android.graphics.drawable.Drawable
