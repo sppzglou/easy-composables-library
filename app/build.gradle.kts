@@ -4,6 +4,8 @@ plugins {
 }
 
 android {
+    val composeCompilerVersion: String by project
+
     namespace = "gr.sppzglou.easycomposableslibrary"
     compileSdk = 34
 
@@ -40,7 +42,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = composeCompilerVersion
     }
     packaging {
         resources {
@@ -66,4 +68,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation(project(":easy-composables"))
 }
